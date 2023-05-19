@@ -29,8 +29,12 @@ npm i @rocketseat/eslint-config -D
 
 ```js
 module.exports = {
-  plugins: [
-    require('prettier-plugin-tailwindcss')
-  ]
-}
+  plugins: [require("prettier-plugin-tailwindcss")],
+};
+```
+
+#### 5. Install Lucide for Icons
+
+```bash
+npm i lucide-react
 ```
